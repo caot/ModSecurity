@@ -61,6 +61,9 @@ As a dynamic library, don’t forget that libmodsecurity must be installed to a 
 On unix the project uses autotools to help the compilation process.
 
 ```shell
+$ git submodule init
+$ git submodule update
+
 $ ./build.sh
 $ ./configure
 $ make
